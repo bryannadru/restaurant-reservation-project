@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+.side-bar {
+  background-color: #abd1c6;
+  min-width: 200px;
+}
+
+body,
+html {
+  height: 100%;
+  background-color: #004643;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', sans-serif;;
+}
+
+/*.backSplash {
+  background-image: url('../images/backsplash.jpg');
+
+  filter: blur(8px);
+  -webkit-filter: blur(3px);
+
+  min-height: 100vh;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+} */
+
+h1,
+label {
+  color: black;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+h3,
+label {
+  color: black;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+.btn-dark {
+  border: 3px solid #000;
+  border-radius: 5px;
+  color: #181818;
+  background-color: transparent;
+}
+
+.btn-dark:hover {
+  background-color: #f9bc60;
+}
+
+.card-bg {
+  border: 3px solid #000;
+  border-radius: 5px;
+  color: #181818;
+  background-color: transparent;
+}
+
+.btn-cancel {
+  border: 3px solid #000;
+  border-radius: 5px;
+  color: #181818;
+  background-color: transparent;
+}
